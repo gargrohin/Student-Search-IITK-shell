@@ -16,7 +16,7 @@ echo "8. Country"
 echo ""
 echo "example search:"
 echo ""
-echo "write complete example here"
+echo "(1)(160583) (2)(rohin) (3)(Electrical) (4)(T) (5)(Hall3) (6)(sronin) (7)(M) (8)(India)"
 echo ""
 
 punk='y'
@@ -37,7 +37,7 @@ do
 
 	grep -iE "\|.*$roll.*\| $name.*\| $dept.*\| $Prog.*\|.*$Hall.*\|.*$Email.*\|.*$coun.*\|.*$Gender.*" std_info2_sorted.txt
 	echo ""
-	echo "do you feel lucky, punk (y/n)?"
+	echo "search again? (y/n)"
 
 	read punk
 done

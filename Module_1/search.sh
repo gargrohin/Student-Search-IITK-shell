@@ -16,7 +16,7 @@ echo "8. Country"
 echo ""
 echo "example search:"
 echo ""
-echo "write an example search here"
+echo "(1)(160583) (2)(rohin) (3)(Electrical) (4)(T) (5)(Hall3) (6)(sronin) (7)(M) (8)(India)"
 echo ""
 echo "Query:"
 echo ""
@@ -62,7 +62,7 @@ do
 	if [ $successive != 'y' ]
 	then
 		cat std_info.txt>temp
-		echo "do you feel lucky, punk (y/n)?"
+		echo "search again? (y/n)"
 		read punk
 	fi
 
